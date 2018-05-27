@@ -1,0 +1,340 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*header开始*/
+.header{
+	height: 173px;
+	background-color: #eeeeef;
+}
+.logo{
+	text-align: center;
+	height: 125px;
+
+}
+.logo img{
+	margin:-top: 30px;
+}
+.nav{
+	width: 670px;
+	height: 45px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius:23px;
+}
+.nav li{
+	float: left;
+	height: 45px;
+	padding:0 30px;
+	line-height: 45px;
+	background: url(../images/19.png) no-repeat right center;
+	font-size: 14px; 
+}
+.nav li a{
+	display: block;
+	height: 42px;
+	border-bottom: 3px solid #1e50ae;
+}
+.nav li:last-child{
+	background: none;
+}
+/*banner开始*/
+.banner{
+	height: 405px;
+	background: url(../images/2.png) no-repeat center center;
+}
+.serve{
+	height: 810px;
+	margin: 0 auto;
+}
+.word1{
+	font-size: 34px;
+	margin-top: 61px;
+	text-align: center;
+}
+.word2{
+	font-size: 31px;
+	margin-top: 24px;
+	text-align: center;
+}
+.div1{
+	width: 300px;
+	height: 370px;
+	margin-top: 64px;
+	margin-left: 180px; 
+	float: left;
+}
+.image1{
+	text-align: center;
+}
+.word3{
+	margin-top: 20px;
+	text-align: center;
+}
+.word4{
+	margin-left: 105px;
+	background: url(../images/point.png) no-repeat left center;
+	padding-left: 12px;
+	color: gray
+}
+.div2{
+	width: 300px;
+	height: 370px;
+	margin-top: 64px;
+	float: left;
+}
+.div3{
+	width: 300px;
+	height: 250px;
+	margin-left: 180px;
+	float: left;
+}
+.div4{
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+.solution{
+	height: 715px;
+	background: url(../images/back2.png) no-repeat center center;
+}
+.word5{
+	font-size: 34px;
+	color: #fff;
+	text-align: center;
+}
+.box1{
+	height: 643px;
+	width: 1200px;
+	margin-top: 70px;
+	margin-left:150px;
+	position: absolute;
+}
+.image2{
+	margin-left: 54px;
+	margin-top: 75px;
+	float: left;
+}
+.img1{
+	position: absolute;
+	margin-left: 490px;
+	margin-top: 470px;
+}
+.img2{
+	position: absolute;
+	margin-left: 565px;
+	margin-top: 484px;
+	color: #fff;
+	font-size: 18px;
+}
+.inf{
+	height: 910px;
+}
+.word6{
+	margin-top: 59px;
+	text-align: center;
+	font-size: 25px;
+}
+.word7{
+	margin-top: 22px;
+	text-align: center;
+	font-size: 18px;
+}
+.img4{
+	margin-left:180px;
+	margin-top: 50px;
+	float: left;
+}
+.word8{
+	margin-left: 100px;
+	width: 600px;
+	width: 435px;
+	float: left;
+}
+.word9{
+	margin-top: 90px;
+	margin-left: 26px;
+}
+.word10{
+	margin-left: 26px;
+	color: gray;
+	margin-bottom: 30px;
+
+}
+.word11{
+	margin-left: 26px;
+	color: gray;
+	font-size: 10px;
+	margin-bottom: 7px;
+}
+.box4{
+	width: 560px;
+	height: 283px;
+	float: left;
+	margin-top: 150px;
+
+}
+.word12{
+	line-height: 48px;
+	font-size: 12px;
+	color: #797979;
+	float: right;
+}
+.word13{
+	border-bottom:1px dashed #dcdcdc;
+}
+.box5{
+	width: 560px;
+	height: 283px;
+	float: left;
+	margin-top: 375px;
+	position: absolute;
+
+}
+.xinxi{
+	height: 102px;
+	background-color: #f5f5f5;
+}
+.xinxi .msgmain{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.msgmain ul li{
+	width: 299px;
+	margin: 0 auto;
+	height: 105px;
+	float: left;
+}
+.msgmain ul .word14{
+	background: url('../images/9-1.png') no-repeat 45px center;
+}
+.msgmain ul .word15{
+	background: url('../images/9-2.png') no-repeat 45px center;
+}
+.msgmain ul .word16{
+	background: url('../images/9-3.png') no-repeat 45px center;
+}
+.msgmain ul .word17{
+	background: url('../images/9-4.png') no-repeat 45px center;
+}
+.word18{
+	float: right;
+	height: 102px;
+	width: 180px;
+}
+.word18 p{
+	float: left;
+	width: 80px;
+	height: 30px;
+	margin-top: 30px;
+	font-size: 19px;
+}
+.word18 img{
+	float: right;
+	width: 1px;
+	height: 47px;
+	margin-top: -30px;
+}
+
+.word18 span{
+	float: left;
+	font-size: 13px;
+}
+.foot{
+	height: 390px;
+	background-color: #323232;
+}
+.box6{
+	margin-left: 180px;
+	width: 180px;
+	height: 220px;
+	float: left;
+	color: #fff;
+
+}
+.box7{
+	width: 180px;
+	height: 220px;
+	float: left;
+	color: #fff;
+}
+.word19{
+	font-size: 15px;
+	margin-top: 78px;
+	margin-bottom: 29px;
+}
+.word20{
+	font-size: 10px;
+	margin-top:15px;
+}
+.box8{
+	width: 180px;
+	height: 220px;
+	float: left;
+	color: #fff;
+}
+.img5{
+	margin-top: 67px;
+	float: left;
+}
+.foot .hrr{
+	float: left;
+	height: 44px;
+	width: 100%;
+	margin-bottom: 38px;
+	border-bottom: 1px solid #777;
+}
+.foot .bottom{
+	display: inline-block;
+	height: 17px;
+	width: 100%;
+	text-align: center;
+}
+.bottom ul li{
+	display: inline;
+	padding: 0 13px;
+	border-left: 2px solid #a6a6a6;
+	color: #fff;
+}
+.bottom ul .one{
+	border: none;
+}
+.foot .last{
+	float: left;
+	height: 18px;
+	width: 100%;
+	margin: 23px auto;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+.call{
+	float: left;
+	width: 244px;
+	height: 145px;
+	padding-left: 34px;
+	background: url('../images/shu2.png') no-repeat left center;
+}
+.call p{
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+}
+.call .qq{
+	padding-left: 40px;
+	font-size: 16px;
+	background: url('../images/qq.png') no-repeat left center;
+}
+.call .wechat{
+	padding-left: 40px;
+	font-size: 16px;
+	background: url('../images/18.png') no-repeat left center;
+}
